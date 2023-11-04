@@ -1,46 +1,47 @@
-.minha-conta{
-    margin-top: 1em !important;
-    margin-left: 1em !important;
+.minha-conta {
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 .ambulocetus {
   width: 165px !important;
   margin-left: 1.9em;
-  color:  #EFAC23;
+  color: #EFAC23;
 
 }
 
-.elipsemc{
+.elipsemc {
   width: 75px;
   height: 35px;
 }
 
-.minha-info{
-  margin-top: 0em !important;
-  margin-left: 2em !important;
+.minha-info {
+  margin-top: 0em;
+  margin-left: 2em;
 }
 
-.minha-info1{
+.minha-info1 {
   margin-top: 1em !important;
   margin-left: 2em !important;
 }
 
-.minha-info2{
+.minha-info2 {
   margin-top: 2em !important;
   margin-left: 2.5em !important;
 }
 
-.minha-info2:hover{
+.minha-info2:hover {
   color: #EFAC23;
 }
 
-.icon{
+.icon {
   width: 1.25rem !important;
   height: 1.25rem !important;
 }
 
-.hr-livros{
+.hr-livros {
   width: 165px !important;
   margin-left: 1em;
-  color: #EFAC23;;
+  color: #EFAC23;
+  ;
 }

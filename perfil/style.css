@@ -51,6 +51,10 @@ body {
     align-items: center;
 }
 
+hr {
+    opacity: 1;
+}
+
 /*Menu de navegação*/
 
 
@@ -131,31 +135,31 @@ header img {
 }
 
 #alugados {
-    width: 15%;
+    width: 12rem;
     color: #EFAC23;
     border: 1px solid;
     align-self: center;
     margin-top: 0;
-    margin-left: 22px;
-    opacity: 1;
+    margin-left: 20px;
+    opacity: 0.5;
 }
 
 #historico {
-    width: 19%;
+    width: 14rem;
     color: #EFAC23;
     border: 1px solid;
     align-self: center;
     margin-left: 32px;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 #favoritos {
-    width: 14%;
+    width: 10rem;
     color: #EFAC23;
     border: 1px solid;
     align-self: center;
-    margin-left: 32px;
-    opacity: 1;
+    margin-left: 30px;
+    opacity: 0.5;
 }
 
 .notfound img {
@@ -173,6 +177,7 @@ header img {
     align-items: center;
     flex-direction: column-reverse;
     margin: 25px;
+    text-align: center;
 }
 
 .carrossel .alinhamento {
@@ -361,6 +366,7 @@ header img {
     position: absolute;
     margin-top: 30px;
     margin-right: 20px;
+    font-size: 10pt;
     width: auto;
     padding: 0px 5px 0px 5px;
     height: 30px;
@@ -405,12 +411,14 @@ header img {
 #janelaadm {
     height: 440px !important;
     width: 20%;
+    border-radius: 15px;
     margin-left: 0px !important;
 }
 
 #custo {
     height: 440px !important;
     width: 60%;
+    border-radius: 15px;
     margin-right: 15px !important;
 }
 
@@ -669,6 +677,10 @@ header img {
 
 .nota::before {
     content: "\2605";
+}
+
+.ambulocetus {
+    opacity: 0.5;
 }
 
 .nota.ativo~.nota::before {
@@ -1285,9 +1297,223 @@ header img {
     margin-left: auto !important;
     margin-right: auto !important;
     height: 490px !important;
+    border-radius: 15px;
+}
+
+#text-gerenciar {
+    font-size: 130%;
 }
 
 .perfiladm,
 .top {
     width: 80% !important;
+}
+
+@media screen and (max-width: 1175px) {
+
+    #text-gerenciar {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    #text-gerenciar {
+        font-size: 100%;
+    }
+
+    .alinhamento {
+        width: 96% !important;
+    }
+}
+
+@media screen and (max-width: 975px) {
+
+    .perfiladm,
+    .top {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 835px) {
+
+    #text-gerenciar {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .perfiladm,
+    .top {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 775px) {
+
+    .perfiladm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #janelaadm {
+        margin-right: 0 !important;
+        width: 80%;
+        height: auto !important;
+        padding-bottom: 20px;
+    }
+
+    #gerenciar {
+        margin-bottom: 20px;
+    }
+
+    #custo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0 !important;
+        margin-right: 0px !important;
+        width: 80%;
+    }
+
+    .gerenciar {
+        display: none;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .buttons .mb-3 {
+        margin-bottom: 10px !important;
+    }
+
+    .btnn {
+        margin: 20px 10px 10px 10px !important;
+    }
+
+    #text-gerenciar {
+        font-size: 130%;
+    }
+
+    .algn {
+        align-self: center;
+    }
+
+    .minha-info {
+        margin-top: 0em !important;
+        margin-left: 0em !important;
+    }
+
+    .clean {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .top .container {
+        width: 90%;
+    }
+
+    .alinhamento {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .minha-info {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .minha-info {
+        font-size: small;
+    }
+
+    ul {
+        padding-left: 0 !important;
+    }
+
+    header .nav {
+        display: flex;
+        margin: 0 15px 0 15px;
+    }
+
+    .text-left {
+        font-size: 12pt;
+    }
+
+    #historico {
+        width: 9rem;
+    }
+
+    #favoritos {
+        width: 7rem;
+    }
+
+    #alugados {
+        width: 8rem;
+    }
+
+    .minha-conta {
+        margin-top: 25px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .minha-info {
+        font-size: small;
+    }
+
+    .menu ul {
+        padding-left: 0 !important;
+    }
+
+    .menu li {
+        margin-left: 10px;
+    }
+
+    header .nav {
+        display: flex;
+        margin: 0 10px 0 10px;
+    }
+
+    #sair-alinhamento h4 {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .text-left {
+        font-size: 10pt;
+    }
+
+    #historico {
+        display: none;
+    }
+
+    #favoritos {
+        display: none;
+    }
+
+    #alugados {
+        display: none;
+    }
+
+    .minha-conta {
+        margin-top: 25px !important;
+    }
 }

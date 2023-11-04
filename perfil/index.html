@@ -45,7 +45,7 @@
   <section class="perfiladm">
 
     <div class="container custom-container custom-custom-container branco shadow perfil" id="custom">
-      <div class=" row">
+      <div class="row">
         <div id="sair-alinhamento">
           <h4 class="text-left minha-conta"> Minha Conta </h4>
           <p class="text-left minha-conta" id="sair" onclick="logout()"> Sair </p>
@@ -53,14 +53,14 @@
         <hr class="ambulocetus">
       </div>
 
-      <div class="row">
+      <div class="row algn">
         <div class="col text-center">
           <a class="elipsemc" id="sua_foto"></a>
         </div>
       </div>
 
-      <div class="row" style="margin-top: 40px;" id="nome-usuario"></div>
-      <div class="row" id="email-usuario"></div>
+      <div class="row algn" style="margin-top: 40px;" id="nome-usuario"></div>
+      <div class="row algn" id="email-usuario"></div>
 
       <hr>
 
@@ -101,14 +101,14 @@
 
     <div class="container custom-container custom-custom-container branco shadow" id="janelaadm" style="display: none;">
       <div class=" row" id="gerenciar">
-        <h4 class="text"> Gerenciar </h4>
+        <h4 class="text" id="text-gerenciar"> Gerenciar Livros</h4>
         <hr class="hr_gerenciar">
       </div>
 
       <div class="buttons">
-        <button class="btnn mb-3" data-bs-toggle="modal" data-bs-target="#Modaladd">Adicionar Livro</button>
-        <button class="btnn" data-bs-toggle="modal" data-bs-target="#Modaremove" onclick=" ModalGerenciar()">Gerenciar
-          Livros</button>
+        <button class="btnn mb-3" data-bs-toggle="modal" data-bs-target="#Modaladd">Adicionar</button>
+        <button class="btnn" data-bs-toggle="modal" data-bs-target="#Modaremove"
+          onclick=" ModalGerenciar()">Gerenciar</button>
         <hr class="gerenciar">
         <button class="btnn mb-3" data-bs-toggle="modal" data-bs-target="#ModalAlugueis"
           onclick="ModalAlugueis()">Alugados</button>
@@ -133,7 +133,7 @@
       </div>
 
       <hr id="alugados" class="hr_livro">
-      
+
       <div class="alinhamento">
         <ol id="searchalugados" class="book Bibliotecaalugados" style="display: flex;"></ol>
       </div>
