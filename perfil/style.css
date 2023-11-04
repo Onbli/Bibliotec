@@ -1273,6 +1273,7 @@ header img {
     margin-right: auto !important;
     margin-bottom: 40px !important;
     height: 400px !important;
+    border-radius: 15px;
 }
 
 .custom-custom-container {
